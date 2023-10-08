@@ -2,9 +2,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: postgres
+    username: toinguyen
     password: root
-    url: jdbc:postgresql://localhost/postgres
+    url: jdbc:postgresql://localhost/postgresql
     platform: postgres
     initialization-mode: always
     continue-on-error: true
@@ -12,8 +12,8 @@ spring:
     show-sql: false
 #    generate-ddl: false
     hibernate:
-      ddl-auto: create
-    database: postgresql
+      ddl-auto: update
+    database: POSTGRESQL
     properties:
       hibernate:
         temp:
