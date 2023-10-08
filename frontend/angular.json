@@ -142,7 +142,6 @@
       }
     }
   },
-  "defaultProject": "shop",
   "cli": {
     "analytics": false
   },
